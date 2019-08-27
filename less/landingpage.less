@@ -5,6 +5,13 @@ html, body {
 
 .landingpage {
     
+    background: black;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     h1 {
         color: @landingcolour;
         font-size: 8rem;
@@ -15,35 +22,32 @@ html, body {
     h2 {
         color: @landingcolour;
         font-size: 2.5rem;
-        padding: 2rem;
         text-align: center;
+        padding: 0.5rem;
     }
     
     a {
         color: @landingcolour;
         font-size: 3rem;
-        padding: 1.2rem 3.2rem;
-        border: 0.2rem solid @landingcolour;
-        border-radius: 1rem;
-        margin: 1rem;
-
+        
         &:hover {
             color: black;
             background-color: @landingcolour;
         }
     }
-    
-    background: black;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
-    .choose {
+    .quals {
+        padding: 1rem;
+    }
+    
+    .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 1.2rem 3.2rem;
+        border: 0.2rem solid @landingcolour;
+        border-radius: 1rem;
+        margin: 1rem;
     }
 }

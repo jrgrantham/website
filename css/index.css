@@ -138,31 +138,34 @@ body {
   align-items: center;
 }
 .landingpage h1 {
-  color: #E0008D;
+  color: #008f11;
   font-size: 8rem;
   text-align: center;
 }
 .landingpage h2 {
-  color: #E0008D;
+  color: #008f11;
   font-size: 2.5rem;
-  padding: 2rem;
   text-align: center;
+  padding: 0.5rem;
 }
 .landingpage a {
-  color: #E0008D;
+  color: #008f11;
   font-size: 3rem;
-  padding: 1.2rem 3.2rem;
-  border: 0.2rem solid #E0008D;
-  border-radius: 1rem;
-  margin: 1rem;
 }
 .landingpage a:hover {
   color: black;
-  background-color: #E0008D;
+  background-color: #008f11;
 }
-.landingpage .choose {
+.landingpage .quals {
+  padding: 1rem;
+}
+.landingpage .button {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 1.2rem 3.2rem;
+  border: 0.2rem solid #008f11;
+  border-radius: 1rem;
+  margin: 1rem;
 }
