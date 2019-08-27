@@ -138,27 +138,27 @@ body {
   align-items: center;
 }
 .landingpage h1 {
-  color: purple;
+  color: #E0008D;
   font-size: 8rem;
   text-align: center;
 }
 .landingpage h2 {
-  color: purple;
-  font-size: 2.3rem;
+  color: #E0008D;
+  font-size: 2.5rem;
   padding: 2rem;
   text-align: center;
 }
 .landingpage a {
-  color: purple;
+  color: #E0008D;
   font-size: 3rem;
   padding: 1.2rem 3.2rem;
-  border: 0.2rem solid purple;
+  border: 0.2rem solid #E0008D;
   border-radius: 1rem;
   margin: 1rem;
 }
 .landingpage a:hover {
   color: black;
-  background-color: purple;
+  background-color: #E0008D;
 }
 .landingpage .choose {
   display: flex;
