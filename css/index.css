@@ -139,7 +139,7 @@ body {
 }
 .landingpage h1 {
   color: #008f11;
-  font-size: 8rem;
+  font-size: 7rem;
   text-align: center;
 }
 .landingpage h2 {
@@ -150,7 +150,7 @@ body {
 }
 .landingpage a {
   color: #008f11;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 .landingpage a:hover {
   color: black;
