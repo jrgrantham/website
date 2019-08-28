@@ -218,6 +218,7 @@ body {
 .personalpage p {
   text-align: center;
   color: #009a22;
+  font-size: 2rem;
 }
 .personalpage .info {
   height: 10%;
