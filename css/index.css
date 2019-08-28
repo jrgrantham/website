@@ -213,7 +213,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #252525;
+  background-color: black;
 }
 .personalpage p {
   text-align: center;
@@ -229,5 +229,5 @@ body {
   width: 50%;
 }
 .personalpage .hidden p {
-  color: #252525;
+  color: black;
 }
