@@ -218,11 +218,11 @@ body {
 .personalpage p {
   text-align: center;
   color: #009a22;
-  padding: 50px;
 }
 .personalpage .info {
   height: 10%;
   vertical-align: bottom;
+  padding-top: 50px;
 }
 .personalpage .hidden {
   height: 90%;
