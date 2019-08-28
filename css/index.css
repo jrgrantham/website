@@ -89,6 +89,9 @@ video {
   color: black;
   font-size: 62.5%;
 }
+html {
+  background-color: #252525;
+}
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -125,25 +128,88 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* Main Primary color */
+/* Main Secondary color (2) */
+/* Main Secondary color (1) */
+.box {
+  width: 15%;
+  height: 100%;
+}
+.colorpalette {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.color {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 20%;
+}
+.b .one {
+  background-color: #A56699;
+}
+.b .two {
+  background-color: #924784;
+}
+.b .three {
+  background-color: #7E2B6E;
+}
+.b .four {
+  background-color: #6C185C;
+}
+.b .five {
+  background-color: #59074A;
+}
+.a .one {
+  background-color: #96C87C;
+}
+.a .two {
+  background-color: #76B257;
+}
+.a .three {
+  background-color: #589935;
+}
+.a .four {
+  background-color: #41841D;
+}
+.a .five {
+  background-color: #2C6C09;
+}
+.c .one {
+  background-color: #E6E08F;
+}
+.c .two {
+  background-color: #CCC664;
+}
+.c .three {
+  background-color: #B0A93D;
+}
+.c .four {
+  background-color: #979021;
+}
+.c .five {
+  background-color: #7D760A;
+}
 h1 {
-  font-size: 2rem;
-  padding: 1rem 0;
+  color: #009a22;
+  font-size: 5rem;
+  text-align: center;
 }
 h2 {
-  font-size: 1.5rem;
-  padding-bottom: 0.5rem;
-}
-h3 {
-  font-size: 2rem;
-  padding-bottom: 0.5rem;
-}
-p,
-a {
-  font-size: 1.6rem;
+  color: #009a22;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 1rem 0;
 }
 a {
-  text-decoration: none;
+  color: #009a22;
+  font-size: 2.5rem;
+}
+a:hover {
   color: black;
+  background-color: #009a22;
 }
 html,
 body {
@@ -156,25 +222,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.landingpage h1 {
-  color: #009a22;
-  font-size: 5rem;
-  text-align: center;
-}
-.landingpage h2 {
-  color: #009a22;
-  font-size: 2.5rem;
-  text-align: center;
-  padding: 1rem 0;
-}
-.landingpage a {
-  color: #009a22;
-  font-size: 2.5rem;
-}
-.landingpage a:hover {
-  color: black;
-  background-color: #009a22;
 }
 .landingpage .quals {
   display: flex;
