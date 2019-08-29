@@ -247,7 +247,7 @@ body {
 }
 .personalpage p {
   text-align: center;
-  color: #FDB9DF;
+  color: black;
   font-size: 2rem;
 }
 .personalpage .info {
@@ -258,7 +258,4 @@ body {
 .personalpage .hidden {
   height: 90%;
   width: 50%;
-}
-.personalpage .hidden p {
-  color: black;
 }
