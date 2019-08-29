@@ -175,23 +175,23 @@ table {
   background-color: #FFFF6A;
 }
 h1 {
-  color: #FC69BC;
+  color: #FDB9DF;
   font-size: 5rem;
   text-align: center;
 }
 h2 {
-  color: #FC69BC;
+  color: #FDB9DF;
   font-size: 2.5rem;
   text-align: center;
   padding: 1rem 0;
 }
 a {
-  color: #FC69BC;
+  color: #FDB9DF;
   font-size: 2.5rem;
 }
 a:hover {
   color: black;
-  background-color: #FC69BC;
+  background-color: #FDB9DF;
 }
 html,
 body {
@@ -233,7 +233,7 @@ body {
   align-items: center;
   width: 20rem;
   height: 4rem;
-  border: 0.2rem solid #FC69BC;
+  border: 0.2rem solid #FDB9DF;
   border-radius: 1rem;
   margin: 1rem 2rem;
 }
@@ -247,7 +247,7 @@ body {
 }
 .personalpage p {
   text-align: center;
-  color: #FC69BC;
+  color: #FDB9DF;
   font-size: 2rem;
 }
 .personalpage .info {
